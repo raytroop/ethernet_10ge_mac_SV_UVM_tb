@@ -100,7 +100,7 @@ module xge_test_top();
                             .xgmii_rxc          (xge_mac_if.xgmii_rxc),
                             .xgmii_rxd          (xge_mac_if.xgmii_rxd)
                           );
-
+  testcase u_testcase();
 endmodule : xge_test_top
 
 `endif  // XGE_TEST_TOP__SV
