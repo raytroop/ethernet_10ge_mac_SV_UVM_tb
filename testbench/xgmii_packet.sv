@@ -15,7 +15,7 @@ class xgmii_packet extends uvm_sequence_item;
 
   // Signals to be driven into the RTL
   rand bit [7:0]        control;            // 1 Byte
-  rand bit [63_0]       data;               // 8 Bytes
+  rand bit [63:0]       data;               // 8 Bytes
 
   `uvm_object_utils_begin(xgmii_packet)
     `uvm_field_int( control     , UVM_DEFAULT )

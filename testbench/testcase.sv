@@ -13,6 +13,7 @@
 program testcase();
 
   import uvm_pkg::*;
+`include "uvm_macros.svh"
 
   `include "testclass.sv"
   `include "test_lib.svh"

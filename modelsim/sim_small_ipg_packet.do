@@ -1,0 +1,1 @@
+vsim -voptargs="+acc" +UVM_TESTNAME=small_ipg_packet_test +UVM_VERBOSITY=UVM_DEBUG xge_test_top
